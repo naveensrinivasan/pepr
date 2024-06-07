@@ -5,7 +5,10 @@
   "homepage": "https://github.com/defenseunicorns/pepr",
   "license": "Apache-2.0",
   "bin": "dist/cli.js",
-  "repository": "defenseunicorns/pepr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveensrinivasan/pepr.git"
+  },
   "engines": {
     "node": ">=18.0.0"
   },

@@ -19,6 +19,7 @@
     "gen-data-json": "node hack/build-template-data.js",
     "prebuild": "rm -fr dist/* && npm run gen-data-json",
     "build": "tsc && node build.mjs",
+    "ci": "npm run build",
     "build:image": "npm run build && docker buildx build --tag pepr:dev .",
     "test": "npm run test:unit && npm run test:journey",
     "test:unit": "npm run gen-data-json && jest src --coverage --detectOpenHandles --coverageDirectory=./coverage",

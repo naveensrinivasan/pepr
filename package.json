@@ -12,7 +12,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "version": "0.0.0-development",
+  "version": "0.0.1-development",
   "main": "dist/lib.js",
   "types": "dist/lib.d.ts",
   "scripts": {
